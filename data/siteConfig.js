@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "Hi! I'm Hamed!",
-  siteDescription: `Resume`,
+  siteDescription: `Hamed Resume`,
   keyWords: ['hamed', 'bensaad', 'resume', 'developer'],
   authorName: 'Hamed Bensaad',
   twitterUsername: 'abdesselam17',
