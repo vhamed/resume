@@ -40,16 +40,9 @@ class Projects extends React.Component {
                     </a>
                     <div className="repositories__repo-description">
                       <div>{repo.description}</div>
-                      <div className="repositories__repo-urls">
+                      <div className="repositories__repo-url">
                         {repo.url.demo ? (
-                          <a href={repo.url.demo} className="repositories__repo-url">
-                            Live Demo
-                          </a>
-                        ) : null}
-                        {repo.url.demo ? (
-                          <a href={repo.url.code} className="repositories__repo-url">
-                            Code
-                          </a>
+                          <a href={repo.url.demo}>Live Demo</a>
                         ) : null}
                       </div>
                     </div>
@@ -94,19 +87,16 @@ export default styled(Projects)`
     flex-wrap: wrap;
   }
 
-  .repositories__repo-urls {
-    width: 30%;
+  .repositories__repo-url {
     @media (max-width: 768px) {
       width: 100%;
     }
-  }
-
-  .repositories__repo-url {
-    color: #000;
     font-size: 15px;
     font-weight: 600;
+  }
+
+  .repositories__repo-url a {
     text-decoration: none;
-    padding-right: 1em;
   }
 
   .repositories__loader {
