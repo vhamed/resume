@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "Hi! I'm Hamed!",
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  siteDescription: `Resume`,
+  keyWords: ['hamed', 'bensaad', 'resume', 'developer'],
   authorName: 'Hamed Bensaad',
   twitterUsername: 'abdesselam17',
   githubUsername: 'vhamed',
@@ -9,81 +9,38 @@ module.exports = {
   authorDescription: `Developer, interested in programming and everything in its orbit.<br /> 
   fascinated by web development and building websites & apps.<br />
 I am always offering my full commitment whether open source or work projects.<br />
-  blog in my free time.
   `,
   skills: [
     {
-      name: 'HTML, CSS',
+      name: 'Html, Css, Javascript, Php, Java',
       level: 70,
     },
     {
-      name: 'Javascript',
-      level: 50,
-    },
-    {
-      name: 'Php',
-      level: 50,
-    },
-    {
-      name: 'Java',
-      level: 50,
-    },
-    {
-      name: 'React',
+      name: 'React, Node, Laravel, Gatsby',
       level: 80,
     },
     {
-      name: 'NodeJs',
+      name: 'Sql, GraphQl',
       level: 70,
-    },
-    {
-      name: 'Laravel',
-      level: 60,
     },
     {
       name: 'Git',
       level: 70,
     },
   ],
-  jobs: [
-    {
-      company: 'Lendico',
-      begin: {
-        month: 'apr',
-        year: '2018',
-      },
-      duration: null,
-      occupation: 'Frontend developer',
-      description:
-        'I integrate the Frontend team responsible for developing and maintaining the online lending platform.',
-    },
-    {
-      company: 'Anapro',
-      begin: {
-        month: 'dec',
-        year: '2016',
-      },
-      duration: '1 yr e 5 mos',
-      occupation: 'Fullstack developer',
-      description:
-        'Development and maintenance, corrective and preventive, of web applications for the real estate market.',
-    },
-    {
-      company: 'License Systéme Informatique',
-      begin: {
-        month: 'set',
-        year: '2012',
-      },
-      duration: 'License 3 years',
-      occupation: '',
-      description:
-        'Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool.',
-    },
-    /* ... */
-  ],
   education: [
     {
-      company: 'Artificial Intelligence Master Degree',
+      company: 'Free Lancer',
+      begin: {
+        month: 'july',
+        year: '2020',
+      },
+      duration: null,
+      occupation: '',
+      description: 'Free Lancer',
+    },
+    {
+      company: 'Master Degree Artificial Intelligence',
       begin: {
         month: 'july',
         year: '2018',
@@ -93,7 +50,7 @@ I am always offering my full commitment whether open source or work projects.<br
       description: 'Univ of Mostefa Ben Boulaid',
     },
     {
-      company: 'Computer Science Licence Degree',
+      company: 'Licence Degree Computer Science',
       begin: {
         month: 'july',
         year: '2016',
@@ -124,8 +81,8 @@ I am always offering my full commitment whether open source or work projects.<br
       },
     },
     {
-      name: 'Classified Ads',
-      description: 'built with Laravel',
+      name: 'Expert Informatique',
+      description: 'Ecommerce',
       url: {
         demo: 'https://ads-classified.github.io',
         code: 'https://github.com/vhamed/ads-classified',
@@ -169,4 +126,3 @@ I am always offering my full commitment whether open source or work projects.<br
     },
   ],
 }
-
