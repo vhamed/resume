@@ -7,4 +7,4 @@
   Curriculum Vitae
 </h1>
 
-My resume, built using [this starter](https://github.com/santosfrancisco/gatsby-starter-cv)
+My resume, built with [Gatsby](https://www.gatsbyjs.org/) using [gatsby-starter-cv](https://github.com/santosfrancisco/gatsby-starter-cv)
