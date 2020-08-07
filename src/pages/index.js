@@ -39,7 +39,7 @@ const Home = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={siteConfig.siteCover}
+        heroImg={withPrefix(siteConfig.siteCover)}
         title={title}
       />
 
