@@ -3,16 +3,16 @@ module.exports = {
   siteDescription: `Hamed Resume`,
   keyWords: ['hamed', 'bensaad', 'resume', 'developer'],
   authorName: 'Hamed Bensaad',
-  twitterUsername: 'abdesselam17',
+  twitterUsername: 'vhamed7',
   githubUsername: 'vhamed',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, interested in programming and everything in its orbit.<br /> 
-  fascinated by web development and building websites & apps.<br />
-I am always offering my full commitment whether open source or work projects.<br />
-  `,
+  authorDescription: `Developer, interested in programming and everything in its orbit.<br />
+  Fascinated by web development and building websites & apps.<br />
+  I am always offering my full commitment whether open source or work projects.<br />
+`,
   skills: [
     {
-      name: 'Html, Css, Javascript, Php, Java',
+      name: 'Javascript, Html, Css, Php, Java',
       level: 70,
     },
     {
@@ -28,7 +28,7 @@ I am always offering my full commitment whether open source or work projects.<br
       level: 70,
     },
   ],
-  education: [
+  jobs: [
     {
       company: 'Free Lancer',
       begin: {
@@ -69,59 +69,40 @@ I am always offering my full commitment whether open source or work projects.<br
       occupation: '',
       description: 'Ali Nmer High School',
     },
-    /* ... */
   ],
-  projects: [
+  portifolio: [
     {
-      name: 'Inventory Management System',
-      description: 'built with React, NodeJS',
-      url: {
-        demo: 'https://inventory.github.io',
-        code: 'https://github.com/vhamed/inventory',
-      },
+      image: '/images/gatsby-starter-cv.png',
+      description: 'Gatsby starter CV template',
+      url:
+        'https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/',
     },
     {
-      name: 'Expert Informatique',
-      description: 'Ecommerce',
-      url: {
-        demo: 'https://ads-classified.github.io',
-        code: 'https://github.com/vhamed/ads-classified',
-      },
+      image: '/images/awesome-grid.png',
+      description: 'Responsive grid for ReactJS',
+      url: 'https://github.com/santosfrancisco/react-awesome-styled-grid',
     },
-    {
-      name: 'Talya News',
-      description: 'built with GatsbyJS',
-      url: {
-        demo: 'https://ads-classified.github.io',
-        code: 'https://github.com/vhamed/ads-classified',
-      },
-    },
-    {
-      name: 'Symétricom',
-      description: 'built with GatsbyJS',
-      url: {
-        demo: 'https://ads-classified.github.io',
-        code: 'https://github.com/vhamed/ads-classified',
-      },
-    },
+    /* more portifolio items here */
   ],
   social: {
-    twitter: 'https://twitter.com/abdesselame17',
-    // linkedin: "https://www.linkedin.com/in/santos-francisco",
+    twitter: 'https://twitter.com/vhamed7',
+    linkedin: 'https://www.linkedin.com/in/vhamed',
     github: 'https://github.com/vhamed',
     email: 'hamed.abdesselam7@yahoo.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://vhamed.github.io/resume',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
+  fontColor: '#000000cc',
+  enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Hamed Bensaad',
+      label: 'Home',
       url: '/',
     },
   ],
