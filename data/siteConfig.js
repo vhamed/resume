@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Hamed Bensaad',
   twitterUsername: 'vhamed7',
   githubUsername: 'vhamed',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: '/images/avatar.jpg',
   authorDescription: `Developer, interested in programming and everything in its orbit.<br />
   Fascinated by web development and building websites & apps.<br />
   I am always offering my full commitment whether open source or work projects.<br />
