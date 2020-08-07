@@ -4,4 +4,4 @@
   </a>
 </p>
 
-###[Live Demo](https://vhamed.github.io/resume)
+[### Live Demo](https://vhamed.github.io/resume)
