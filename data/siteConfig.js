@@ -91,7 +91,7 @@ module.exports = {
     email: 'hamed.abdesselam7@yahoo.com',
   },
   siteUrl: 'https://vhamed.github.io/resume',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/resume', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
