@@ -10,30 +10,29 @@ const endpoint = `https://api.github.com/users/${siteConfig.githubUsername}/repo
 
 const projects = [
   {
+    name: 'Symétricom',
+    description: 'Agence de Publicité',
+    demo: 'http://symetricom.com/',
+    updated_at: new Date().toISOString(),
+  },
+  {
     name: 'Talya Media',
-    description: 'built with GatsbyJS',
+    description: "Site d'informations",
     demo: 'http://talya-media.com/',
     updated_at: new Date().toISOString(),
   },
   {
-    name: 'Symétricom',
-    description: 'built with GatsbyJS',
-    demo: 'http://www.symetricom.com/',
-    updated_at: new Date().toISOString(),
-  },
-  {
-    name: 'Inventory Management System',
-    description: 'built with React, NodeJS',
-    demo: 'https://vhamed.github.io/inventory',
+    name: 'Gestionnaire du Stock',
+    description: 'Electron App',
+    demo: 'https://vhamed.github.io/inventory-website',
     updated_at: new Date().toISOString(),
   },
   {
     name: 'Expert Informatique',
-    description: 'Ecommerce',
+    description: 'Site Ecommerce',
     demo: 'https://affectionate-allen-c1b2a4.netlify.app/',
     updated_at: new Date().toISOString(),
   },
-
   {
     name: 'Rtl News Magazine',
     description: 'Template',
