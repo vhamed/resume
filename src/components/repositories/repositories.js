@@ -24,7 +24,7 @@ const projects = [
   {
     name: 'Gestionnaire du Stock',
     description: 'Electron App',
-    demo: 'https://vhamed.github.io/inventory-website',
+    demo: 'https://vhamed.github.io/evo',
     updated_at: new Date().toISOString(),
   },
   {
