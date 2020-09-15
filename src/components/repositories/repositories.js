@@ -22,9 +22,9 @@ const projects = [
     updated_at: new Date().toISOString(),
   },
   {
-    name: 'Gestionnaire du Stock',
+    name: 'Gestionnaire de Parfumerie',
     description: 'Electron App',
-    demo: 'https://vhamed.github.io/evo',
+    demo: 'https://agitated-almeida-3c7a92.netlify.app/#/',
     updated_at: new Date().toISOString(),
   },
   {
