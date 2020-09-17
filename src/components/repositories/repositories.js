@@ -24,7 +24,7 @@ const projects = [
   {
     name: 'Gestionnaire de Parfumerie',
     description: 'Electron App',
-    demo: 'https://agitated-almeida-3c7a92.netlify.app/#/',
+    demo: 'https://friendly-hopper-55e8dc.netlify.app/#/',
     updated_at: new Date().toISOString(),
   },
   {
