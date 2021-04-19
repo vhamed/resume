@@ -9,14 +9,15 @@ module.exports = {
   authorDescription: `Developer, interested in programming and everything in its orbit.<br />
   Fascinated by web development and building websites & apps.<br />
   I am always offering my full commitment whether open source or work projects.<br />
+  I mainly work with <b>Javascript, Node, React</b>
 `,
   skills: [
     {
-      name: 'Javascript, Html, Css, Php, Java',
+      name: 'Javascript, Php, Java, Html, Css',
       level: 70,
     },
     {
-      name: 'React, Node, Laravel, Gatsby',
+      name: 'React, Node, Laravel, NextJs, Gatsby',
       level: 80,
     },
     {
@@ -24,40 +25,60 @@ module.exports = {
       level: 70,
     },
     {
-      name: 'Git',
-      level: 70,
+      name: 'Git, Electron',
+      level: 90,
     },
   ],
-  jobs: [
+  timeline: [
     {
-      company: 'Free Lancer',
+      company: 'Isefka',
       begin: {
-        month: 'july',
+        month: 'Dec',
         year: '2020',
       },
       duration: null,
       occupation: '',
-      description: 'Free Lancer',
+      description: 'FullStack Developer (NextJS, Node, React)',
     },
     {
-      company: 'Master Degree Artificial Intelligence',
+      company: 'Ignis IT',
+      begin: {
+        month: 'dec',
+        year: '2019',
+      },
+      duration: '1 year',
+      occupation: '',
+      description: 'FullStack Developer (Node, React)',
+    },
+    {
+      company: 'Symetricom',
+      begin: {
+        month: 'july',
+        year: '2018',
+      },
+      duration: '5 months',
+      occupation: '',
+      description: 'Frontend Developer (React)',
+    },
+    {
+      company: 'Master Degree',
       begin: {
         month: 'july',
         year: '2018',
       },
       duration: '2 years',
       occupation: '',
-      description: 'Univ of Mostefa Ben Boulaid',
+      description: 'Artificial Intelligence',
     },
     {
-      company: 'Licence Degree Computer Science',
+      company: 'Licence Degree',
       begin: {
         month: 'july',
         year: '2016',
       },
       duration: '3 years',
       occupation: '',
-      description: 'Univ of Mostefa Ben Boulaid',
+      description: 'Computer Science',
     },
     {
       company: 'Backelor Degree Mathematics',
@@ -68,6 +89,102 @@ module.exports = {
       duration: '1 year',
       occupation: '',
       description: 'Ali Nmer High School',
+    },
+  ],
+  education: [
+    {
+      company: 'Master Degree',
+      begin: {
+        month: 'july',
+        year: '2018',
+      },
+      duration: '2 years',
+      occupation: '',
+      description: 'Artificial Intelligence',
+    },
+    {
+      company: 'Licence Degree',
+      begin: {
+        month: 'july',
+        year: '2016',
+      },
+      duration: '3 years',
+      occupation: '',
+      description: 'Computer Science',
+    },
+    {
+      company: 'Backelor Degree Mathematics',
+      begin: {
+        month: 'juin',
+        year: '2013',
+      },
+      duration: '1 year',
+      occupation: '',
+      description: 'Ali Nmer High School',
+    },
+  ],
+  jobs: [
+    {
+      company: 'Ikalas',
+      begin: {
+        month: 'Dec',
+        year: '2020',
+      },
+      duration: null,
+      occupation: '',
+      description: 'FullStack Developer',
+    },
+    {
+      company: 'Ignis IT',
+      begin: {
+        month: 'dec',
+        year: '2019',
+      },
+      duration: '1 year',
+      occupation: '',
+      description: 'Developer',
+    },
+    {
+      company: 'Symetricom',
+      begin: {
+        month: 'july',
+        year: '2018',
+      },
+      duration: '5 months',
+      occupation: '',
+      description: 'Developer',
+    },
+  ],
+  projects: [
+    {
+      name: 'Symétricom',
+      description: 'Agence de Publicité',
+      demo: 'http://symetricom.com/',
+      updated_at: new Date().toISOString(),
+    },
+    {
+      name: 'Talya Media',
+      description: "Site d'informations",
+      demo: 'http://talya-media.com/',
+      updated_at: new Date().toISOString(),
+    },
+    {
+      name: 'Gestionnaire de Parfumerie',
+      description: 'Electron App',
+      demo: 'https://friendly-hopper-55e8dc.netlify.app/#/',
+      updated_at: new Date().toISOString(),
+    },
+    {
+      name: 'Expert Informatique',
+      description: 'Site Ecommerce',
+      demo: 'https://affectionate-allen-c1b2a4.netlify.app/',
+      updated_at: new Date().toISOString(),
+    },
+    {
+      name: 'Rtl News Magazine',
+      description: 'Template',
+      demo: 'https://confident-wilson-ff8d41.netlify.app/',
+      updated_at: new Date().toISOString(),
     },
   ],
   portifolio: [
@@ -88,6 +205,7 @@ module.exports = {
     twitter: 'https://twitter.com/vhamed7',
     linkedin: 'https://www.linkedin.com/in/vhamed',
     github: 'https://github.com/vhamed',
+    gitlab: 'https://gitlab.com/vhamed',
     email: 'hamed.abdesselam7@yahoo.com',
   },
   siteUrl: 'https://vhamed.github.io/resume',

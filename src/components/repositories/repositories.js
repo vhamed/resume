@@ -1,45 +1,13 @@
 import React from 'react'
 import jsonFetch from 'simple-json-fetch'
 import styled from 'styled-components'
-import { GoStar, GoRepoForked, GoLinkExternal } from 'react-icons/go'
+import { GoLinkExternal } from 'react-icons/go'
 import siteConfig from '../../../data/siteConfig'
 
 import Loader from '../loader'
 
 const endpoint = `https://api.github.com/users/${siteConfig.githubUsername}/repos?type=owner&sort=updated&per_page=5&page=1`
 
-const projects = [
-  {
-    name: 'Symétricom',
-    description: 'Agence de Publicité',
-    demo: 'http://symetricom.com/',
-    updated_at: new Date().toISOString(),
-  },
-  {
-    name: 'Talya Media',
-    description: "Site d'informations",
-    demo: 'http://talya-media.com/',
-    updated_at: new Date().toISOString(),
-  },
-  {
-    name: 'Gestionnaire de Parfumerie',
-    description: 'Electron App',
-    demo: 'https://friendly-hopper-55e8dc.netlify.app/#/',
-    updated_at: new Date().toISOString(),
-  },
-  {
-    name: 'Expert Informatique',
-    description: 'Site Ecommerce',
-    demo: 'https://affectionate-allen-c1b2a4.netlify.app/',
-    updated_at: new Date().toISOString(),
-  },
-  {
-    name: 'Rtl News Magazine',
-    description: 'Template',
-    demo: 'https://confident-wilson-ff8d41.netlify.app/',
-    updated_at: new Date().toISOString(),
-  },
-]
 class Repositories extends React.Component {
   constructor(props) {
     super(props)
@@ -64,16 +32,17 @@ class Repositories extends React.Component {
             <Loader />
           </div>
         )}
-        {status === 'ready' && projects && (
+        {status === 'ready' && siteConfig.projects && (
           <React.Fragment>
             <div className="repositories__content">
-              {projects.map(repo => (
+              {siteConfig.projects.map(repo => (
                 <React.Fragment key={repo.name}>
                   <div className="repositories__repo">
                     <a
                       className="repositories__repo-link"
                       href={repo.html_url}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <strong>{repo.name}</strong>
                     </a>
@@ -86,6 +55,7 @@ class Repositories extends React.Component {
                         className="repositories__repo-link"
                         href={repo.demo}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <strong>Demo</strong>
                       </a>
@@ -99,6 +69,7 @@ class Repositories extends React.Component {
               <a
                 href={`https://github.com/${siteConfig.githubUsername}`}
                 target="_blank"
+                rel="noreferrer"
               >
                 See all my repositories
                 <GoLinkExternal style={{ marginLeft: 8 }} />
